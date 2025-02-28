@@ -108,7 +108,6 @@ def main():
         "root": log_directory, 
         "model": os.path.join(log_directory, "model"), 
         "prediction": os.path.join(log_directory, "prediction"),
-        "neg_labels_dir": param_dir
     }
     if not os.path.exists(log_directory): 
         os.makedirs(log_directory)
